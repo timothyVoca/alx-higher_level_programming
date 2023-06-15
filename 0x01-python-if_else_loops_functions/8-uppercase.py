@@ -12,4 +12,4 @@ def uppercase(str):
 
         else:
             result += char # add the other characters as is
-    print(result)
+    print("{}".format(result))
