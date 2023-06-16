@@ -7,7 +7,9 @@ if __name__ == "__main__":
     num_arguments = len(arguments)
 
     if num_arguments == 1:
-        print("{} {}".format(num_arguments, "argument."))
+        print("{} {}".format(num_arguments, "argument:"))
+    elif num_arguments == 0:
+        print("{} {}".format(num_arguments, "arguments."))
     else:
         print("{} {}".format(num_arguments, "arguments:"))
 
