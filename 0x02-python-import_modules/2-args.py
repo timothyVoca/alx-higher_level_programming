@@ -7,9 +7,9 @@ if __name__ == "__main__":
     num_arguments = len(arguments)
 
     if num_arguments == 1:
-        print("{} {}".format(num_arguments, "argument"))
+        print("{} {}".format(num_arguments, "argument."))
     else:
-        print("{} {}".format(num_arguments, "arguments"))
+        print("{} {}".format(num_arguments, "arguments:"))
 
     for i, arg in enumerate(arguments, 1):
         print(f"{i}: {arg}")
